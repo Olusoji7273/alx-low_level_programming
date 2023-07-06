@@ -2,14 +2,17 @@
 
 int check_prime(int, int);
 /**
- *is _prime_number -> prime identifier
+ * is_prime_number - prime identifier
+ * @n: input
+ * Return: Returns prime number
  */
 int is_prime_number(int n)
 {
 	return (check_prime(n, 1));
 }
+
 /**
- * is_prime_number- returns 1 if the input integer is a prime nunber
+ * check_prime- returns 1 if the input integer is a prime nunber
  * @n: integer
  * @i: iterator
  * Return: it returns 1 if n is prime, 0 if not
