@@ -24,7 +24,7 @@ int main(__attribute__((unused)) int argc,
 		}
 		else
 		{
-			result = atoi(argv[i+1]) * atoi(argv[i]);
+			result = atoi(argv[i + 1]) * atoi(argv[i]);
 			printf("%d\n", result);
 		}
 		return (0);
